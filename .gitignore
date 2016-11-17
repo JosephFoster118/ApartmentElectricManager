@@ -1,0 +1,79 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @JosephFoster118
+ Unwatch 1
+  Star 0
+  Fork 0 JosephFoster118/RobotSoftware
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
+Branch: master Find file Copy pathRobotSoftware/.gitignore
+e37637c  on Apr 2
+@JosephFoster118 JosephFoster118 Vector2D Move
+1 contributor
+RawBlameHistory    
+61 lines (46 sloc)  747 Bytes
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+#CMake
+build/*
+
+#Project Files
+*/.cproject
+*/.project
+*/.settings/*
+*/build.*
+
+#Built Files
+*.a
+
+
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
