@@ -1,0 +1,52 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/debian/software/ApartmentElectricalManager/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0c09/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0c09.dir/build.make CMakeFiles/cmTC_f0c09.dir/build
+make[1]: Entering directory `/home/debian/software/ApartmentElectricalManager/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0c09.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f0c09.dir/CheckSymbolExists.c.o   -c /home/debian/software/ApartmentElectricalManager/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f0c09
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0c09.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f0c09.dir/CheckSymbolExists.c.o  -o cmTC_f0c09 -rdynamic 
+CMakeFiles/cmTC_f0c09.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x10): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+collect2: ld returned 1 exit status
+make[1]: *** [cmTC_f0c09] Error 1
+make[1]: Leaving directory `/home/debian/software/ApartmentElectricalManager/build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_f0c09/fast] Error 2
+
+File /home/debian/software/ApartmentElectricalManager/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/debian/software/ApartmentElectricalManager/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45c3a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45c3a.dir/build.make CMakeFiles/cmTC_45c3a.dir/build
+make[1]: Entering directory `/home/debian/software/ApartmentElectricalManager/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45c3a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_45c3a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_45c3a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45c3a.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_45c3a.dir/CheckFunctionExists.c.o  -o cmTC_45c3a -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: ld returned 1 exit status
+make[1]: *** [cmTC_45c3a] Error 1
+make[1]: Leaving directory `/home/debian/software/ApartmentElectricalManager/build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_45c3a/fast] Error 2
+
+

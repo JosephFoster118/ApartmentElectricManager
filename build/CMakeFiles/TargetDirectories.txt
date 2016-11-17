@@ -1,0 +1,14 @@
+/home/debian/software/ApartmentElectricalManager/build/CMakeFiles/edit_cache.dir
+/home/debian/software/ApartmentElectricalManager/build/CMakeFiles/rebuild_cache.dir
+/home/debian/software/ApartmentElectricalManager/build/gsi/CMakeFiles/gsi.dir
+/home/debian/software/ApartmentElectricalManager/build/gsi/CMakeFiles/edit_cache.dir
+/home/debian/software/ApartmentElectricalManager/build/gsi/CMakeFiles/rebuild_cache.dir
+/home/debian/software/ApartmentElectricalManager/build/gsu/CMakeFiles/edit_cache.dir
+/home/debian/software/ApartmentElectricalManager/build/gsu/CMakeFiles/rebuild_cache.dir
+/home/debian/software/ApartmentElectricalManager/build/gsu/CMakeFiles/gsu.dir
+/home/debian/software/ApartmentElectricalManager/build/gri/CMakeFiles/gri.dir
+/home/debian/software/ApartmentElectricalManager/build/gri/CMakeFiles/edit_cache.dir
+/home/debian/software/ApartmentElectricalManager/build/gri/CMakeFiles/rebuild_cache.dir
+/home/debian/software/ApartmentElectricalManager/build/ApartmentElectricalManager/CMakeFiles/edit_cache.dir
+/home/debian/software/ApartmentElectricalManager/build/ApartmentElectricalManager/CMakeFiles/ApartmentElectricalManager.dir
+/home/debian/software/ApartmentElectricalManager/build/ApartmentElectricalManager/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,8 @@
+#pragma once
+
+#define MODE_OFF 0
+#define MODE_ON 1
+#define MODE_NONE 2
+#define MODE_RESET 3
+
+

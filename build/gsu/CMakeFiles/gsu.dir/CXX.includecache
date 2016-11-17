@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../gsu/include/gsu/Callback.h
+
+../gsu/include/gsu/Vector2D.h
+
+/home/debian/software/ApartmentElectricalManager/gsu/src/Callback.cpp
+gsu/Callback.h
+/home/debian/software/ApartmentElectricalManager/gsu/src/gsu/Callback.h
+
+/home/debian/software/ApartmentElectricalManager/gsu/src/Vector2D.cpp
+gsu/Vector2D.h
+/home/debian/software/ApartmentElectricalManager/gsu/src/gsu/Vector2D.h
+
