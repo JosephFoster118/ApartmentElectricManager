@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/libgri.a  CMakeFiles/gri.dir/src/RobotMain.cpp.o CMakeFiles/gri.dir/src/Robot.cpp.o CMakeFiles/gri.dir/src/tinyxml2.cpp.o CMakeFiles/gri.dir/src/GPIO.cpp.o CMakeFiles/gri.dir/src/Controller.cpp.o CMakeFiles/gri.dir/src/Communication.cpp.o CMakeFiles/gri.dir/src/RobotPacket.cpp.o CMakeFiles/gri.dir/src/DigitalIO.cpp.o CMakeFiles/gri.dir/src/Module.cpp.o
-/usr/bin/ranlib ../../lib/libgri.a

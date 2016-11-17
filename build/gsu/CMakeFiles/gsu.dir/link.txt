@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/libgsu.a  CMakeFiles/gsu.dir/src/Vector2D.cpp.o CMakeFiles/gsu.dir/src/Callback.cpp.o
-/usr/bin/ranlib ../../lib/libgsu.a
